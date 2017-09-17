@@ -110,6 +110,7 @@ public class EmployeeController {
 		bean.setName(employee.getEmpName());
 		bean.setSalary(employee.getSalary());
 		bean.setId(employee.getEmpId());
+		System.out.println("Test Application 1..");
 		return bean;
 	}
 }
