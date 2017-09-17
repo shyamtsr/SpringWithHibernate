@@ -97,7 +97,7 @@ public class EmployeeController {
                 bean.setAddress(employee.getEmpAddress());
                 bean.setSalary(employee.getSalary());
                 bean.setAge(employee.getEmpAge());
-                
+                System.out.println("Test Application...");
                 beans.add(bean);
             }
         }
